@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/roboto-condensed');
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: #fdfdfd;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  .item:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .item-img {
+    max-width: 150px;
+  }
+  .item-img img {
+    max-width: 100%;
+  }
+  h3 {
+    font-family: "Roboto Condensed";
+  }
+  .item-color span {
+    font-size: 18px;
+    color: #888;
+    font-weight: 600;
+  }
+  .item-price span {
+    font-family: "Roboto Condensed";
+    color: red;
+    font-size: 20px;
+  }
+  .item-btn a {
+    color: red;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 15px 40px;
+    cursor: pointer;
+  }
+  .item-btn a:hover {
+    color: #fff;
+    background: red;
+  }

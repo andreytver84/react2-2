@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.iconswitch-wrap {
+    text-align: right;
+}
+
+span {
+    cursor: pointer;
+    font-size: 40px;
+}
+
+span:hover {
+    opacity: 0.8;
+}
